@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/100242a674.js" crossorigin="anonymous"></script>
+  <title>Mintbean- Parallax</title>
+</head>
+<body>
+  <!-- intro  -->
+  <section id="hello" class="hello">
+    <div id="one" class="hi">
+     <p data-depth="0.4">Hi There</p> 
+    </div>
+    <div id="two" class="hi">
+      <p data-depth="0.6">Hi There</p>
+    </div>
+    <div id="three" class="hi">
+      <p data-depth="0.8">Hi There</p>
+    </div>
+    <div id="four" class="hi">
+      <p data-depth="1">Hi There</p>
+    </div>
+  </section>
+  <!-- square  -->
+  <section id="square" class="square">
+    <div class="frame a"></div>
+    <div class="frame" data-depth="0.2">
+      <div class="b"></div>
+    </div>
+    <div class="frame" data-depth="0.4">
+      <div class="c"></div>
+    </div>
+    <div class="frame" data-depth="0.6">
+      <div class="d"></div>
+    </div>
+    <div class="frame" data-depth="0.8">
+      <div class="e"></div>
+    </div>
+    <div class="frame" data-depth="1">
+      <div class="f">Have you had...</div>
+    </div>
+  </section>
+  <!-- stars  -->
+  <section id="stars" class="stars">
+    <p>A Break</p>
+    <div id="star1" class="star">
+      <i class="far fa-star" data-depth-x="-0.80" data-depth-y="0.80"></i>
+    </div>
+    <div id="star2" class="star">
+      <i class="far fa-star" data-depth-x="0.80" data-depth-y="0.80"></i>
+    </div>
+    <div id="star3" class="star">
+      <i class="far fa-star" data-depth-x="0.80" data-depth-y="-0.80"></i>
+    </div>
+    <div id="star4" class="star">
+      <i class="far fa-star" data-depth-x="-0.80" data-depth-y="-0.80"></i>
+    </div> 
+  </section>
+  <!-- waves  -->
+  <section id="waves" class="waves">
+    <div id="wave1" class="wave">
+      <img src="noun_Wavy line_924527.png" data-depth-x="0.80">
+    </div>
+    <div id="wave2" class="wave">
+      <img src="noun_Wavy line_924527.png" data-depth-x="-0.80">
+    </div>
+    <div id="wave3" class="wave">
+      <img src="noun_Wavy line_924527.png" data-depth-x="0.80">
+    </div>
+    <div id="wave4" class="wave">
+      <img src="noun_Wavy line_924527.png" data-depth-x="-0.80">
+    </div>
+    <p>Today?</p>
+  </section>
+  <!-- scripts  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script>
+
+    var one = document.getElementById('one');
+    var parallax = new Parallax(one);
+
+    var two = document.getElementById('two');
+    var parallax = new Parallax(two);
+
+    var three = document.getElementById('three');
+    var parallax = new Parallax(three);
+
+    var four = document.getElementById('four');
+    var parallax = new Parallax(four);
+
+    var square = document.getElementById('square');
+    var parallax = new Parallax(square);
+
+    var star1 = document.getElementById('star1');
+    var parallax = new Parallax(star1);
+
+    var star2 = document.getElementById('star2');
+    var parallax = new Parallax(star2);
+
+    var star3 = document.getElementById('star3');
+    var parallax = new Parallax(star3);
+
+    var star4 = document.getElementById('star4');
+    var parallax = new Parallax(star4);
+
+    var wave1 = document.getElementById('wave1');
+    var parallax = new Parallax(wave1);
+
+    var wave2 = document.getElementById('wave2');
+    var parallax = new Parallax(wave2);
+
+    var wave3 = document.getElementById('wave3');
+    var parallax = new Parallax(wave3);
+
+    var wave4 = document.getElementById('wave4');
+    var parallax = new Parallax(wave4);
+
+
+  </script>
+</body>
+</html>
